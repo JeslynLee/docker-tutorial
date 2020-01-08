@@ -5,6 +5,6 @@ WORKDIR /app
 # Add Python script to the Dockerfile
 COPY . /app
 # Install any needed packages
-RUN pip install –trusted-host pypi.python.org –r requirements.txt
+RUN pip install –-trusted-host pypi.python.org –r requirements.txt
 # Run app.py when the container launches
 CMD [“python”, “app.py”]
