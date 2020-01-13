@@ -7,4 +7,4 @@ COPY . /app
 # Install any needed packages
 RUN pip install –-trusted-host pypi.python.org –r requirements.txt
 # Run app.py when the container launches
-CMD [“python”, “app.py”]
+CMD ["python", "app.py"]
